@@ -1,0 +1,219 @@
+body{
+    margin: 20px;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/*khi lia chuột vào*/
+button:hover{
+    color: cornflowerblue;
+}
+/* khi đè / click */
+
+button:active{
+    color: rgb(255, 255, 255);
+}
+
+a:link{
+    color: rgb(85, 0, 255);
+}
+
+/*khi đã bấm vào*/
+/* a:visited{
+    color: red;
+} */
+
+/*khi lia chuột vào*/
+a:hover{
+    color:cornflowerblue
+}
+
+/* khi đè / click */
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+.icon{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.fa-facebook-f{
+    font-size: 60px;
+    color: blue;
+    
+}
+
+.fa-school{
+    font-size: 60px;
+    color:rgb(230, 84, 0);
+}
+
+.fa-message{
+    font-size: 60px;
+    color:darkgray
+}
+
+
+h1{
+    text-shadow: 8px 5px 15px black;  /*(có thể tạo nhiều cái)
+    /*
+    first value -> left (negative num), right (positive num)
+    second value -> above (negative num), below (positive num)
+    third value -> làm mờ (positive num) */
+
+    box-shadow: 0px 5px 20px black;
+    background: linear-gradient(skyblue, white);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: crimson;
+    font-family: "Anton";
+    border-top: crimson solid;
+    border-top-width: 6px;
+    border-bottom: crimson solid;
+    border-left: crimson solid;
+    border-right: crimson solid;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}   
+
+h1:first-child{
+    max-width: 100px;
+}
+
+h2{
+    background: linear-gradient(skyblue, white);
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: crimson dotted underline;
+    font-family: "Anton";
+    border-style: solid;
+    border-radius: 10px;
+}
+
+h3{
+    color: crimson;
+}
+
+/* nếu là id thì là # */
+#line1{    
+    border: double;
+    border-radius: 10px;
+
+}
+
+#title{
+    text-decoration: orange underline;
+    font-weight: bold;
+}
+
+#button{
+    text-align: center;
+}
+
+
+#image{
+    float: right;
+}
+
+#p1{
+    background-color: rgb(252, 252, 252); color: gray;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+#p2{
+    color: violet;
+}
+
+#p3{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bais1{
+    font-family: "Source Code Pro";
+    color:rgb(84, 72, 249);
+    font-style:italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#s1{
+    font-family: "Source Code Pro";
+    color:rgb(40, 211, 253);
+    font-style:italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#s1:hover{
+    color: rgb(238, 82, 82);
+}
+
+#bais2{
+    font-family: "Source Code Pro";
+    color:rgb(84, 72, 249);
+    font-style:italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#s2{
+    font-family: "source code pro";
+    color:rgb(165, 46, 245);
+    font-style:italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#s2:hover{
+    color: rgb(238, 82, 82);
+}
+
+.BTL{
+    color: aqua;
+}
+
+li:nth-child(odd) span{
+    background-color: skyblue;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+li:nth-child(even) span{
+    background-color: rgb(255, 44, 44);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+
+/* nếu là class thì . */
+.odd{
+    color: rgb(30, 160, 30);
+    font-family: "Oswald";
+    font-weight: 100;
+}
+
+.even{
+    color:coral;
+    font-family: "Playfair Display";
+}
